@@ -3,6 +3,7 @@ import { SignUpStyles as styles } from '../Styles';;
 import { Image,SafeAreaView, Text, TextInput, TouchableOpacity, View, StyleSheet, ScrollView } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { SignInUpStackParamList } from '../Types';
+//tryyy
 
 type Props = StackScreenProps<SignInUpStackParamList, "SignUp">
 
@@ -12,7 +13,7 @@ const SignUp = ({route, navigation}: Props) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-
+  
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView
