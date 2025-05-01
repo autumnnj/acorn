@@ -3,7 +3,7 @@ import { SafeAreaView, Text, View, TextInput, TouchableOpacity, Platform, StyleS
 import { AddExpensesStyles as styles } from '../Styles';
 import { Picker } from "@react-native-picker/picker";
 import DateTimePicker from '@react-native-community/datetimepicker';
-
+//try try
 const AddExpenses = ({ navigation }: any) => {
   const [category, setCategory] = useState('Lunch');
   const [amount, setAmount] = useState('');
